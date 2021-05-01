@@ -1,0 +1,70 @@
+
+.links {
+    text-align: center;
+    word-spacing: 20px;
+    font-family: 'Krona One', sans-serif;
+    
+    
+}
+
+a:link a:visited {
+    color:white;
+}
+
+.para {
+    margin: 1%;
+}
+
+hr {
+   
+    
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+th {
+    
+    background-color: #507f8d;
+    color: white;
+}
+td {
+    text-transform: uppercase;
+}
+
+
+.small-heading {
+    text-align: center;
+    padding: 2%;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.small-heading2 {
+    text-align: left;
+    padding: 2%;
+    line-height: 1.6;
+}
+.small-heading3 {
+    text-align: center;
+    padding: 12%;
+    line-height: 1.6;
+}
+
+
+.header {
+    color: white;
+    text-align: left;
+    background-image: 
+        url('https://images.unsplash.com/photo-1595101805915-963ec7b9b45a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
+        font-family: 'Krona One', sans-serif;
+    background-size: cover;
+    padding: 50px;
+    margin: 0%;
+  
+    
+    
+}
