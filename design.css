@@ -1,30 +1,22 @@
 
-.links {
-    text-align: center;
-    word-spacing: 20px;
-    font-family: 'Krona One', sans-serif;
-    
-    
-}
-
-a:link a:visited {
-    color:white;
-}
-
-.para {
-    margin: 1%;
-}
-
-hr {
-   
-    
-}
 th, td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
     text-align: center;
     text-transform: uppercase;
     
+}
+.small-Heading {
+    color: green;
+    font-weight: bold;
+}
+.heading{
+    background-color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
 }
 th {
     
@@ -35,36 +27,100 @@ td {
     text-transform: uppercase;
 }
 
-
-.small-heading {
+.contact-Info {
     text-align: center;
-    padding: 2%;
+    line-height: 3;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}
+.item {
+    border: whitesmoke solid;
+}
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.head {
+    
+    padding: 10px;
+    text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
+    
+}
+.description {
+    padding: 50px;
+    line-height: 1.5;
+    
+    
+}
+.icon , .foot{
+    width: 15%;
+    height: 15%;
+    word-spacing: 50px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.about-Me {
+    display: flex;
+    padding: 5%;
 }
-.small-heading2 {
-    text-align: left;
-    padding: 2%;
-    line-height: 1.6;
+.my-Image {
+    border-radius: 50%;
+    width: 80%;
+        
 }
-.small-heading3 {
+
+.item {
+    
+    flex-basis: 100%;
     text-align: center;
-    padding: 12%;
-    line-height: 1.6;
+}
+
+.project {
+    display: flex;
+}
+Body {
+    background-color: black;
+    color: white;
+}
+
+.about-Me-Text {
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.head a:link, a:visited {
+    
+    text-decoration: none;
+    border: solid white;
+    color: white;
+    padding: 10px 20px;
+}
+.head {
+    background-color: green;
+    height: fit-content;
+}
+
+.head a:hover {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: tomato;
 }
 
 
 .header {
     color: white;
     text-align: left;
-    background-image: 
-        url('https://images.unsplash.com/photo-1595101805915-963ec7b9b45a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
-        font-family: 'Krona One', sans-serif;
+    background-color: green; 
     background-size: cover;
-    padding: 50px;
+    padding: 20px;
     margin: 0%;
-  
+    font-size: 200;
+    text-transform: uppercase;   
     
     
 }
