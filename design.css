@@ -93,7 +93,7 @@ Body {
     padding: 10px 20px;
 }
 
-.head a:link, a:visited {
+.head a:link,  a:visited {
     
     text-decoration: none;
     border: solid white;
@@ -103,6 +103,12 @@ Body {
 .head {
     background-color: green;
     height: fit-content;
+}
+.head-link {
+    color: white;
+}
+.head-link:hover {
+    color: tomato;
 }
 
 .head a:hover {
